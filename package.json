@@ -1,0 +1,56 @@
+{
+	"name": "@three-ws/vanity-mcp",
+	"version": "0.1.3",
+	"mcpName": "io.github.nirholas/vanity-mcp",
+	"description": "Read the three.ws vanity-address grind-bounty market and proof-of-grind rarity gallery from any AI agent. Quote a pattern's difficulty + USDC price, appraise any address's rarity, and browse the bounty board, claimable queue, stats, leaderboard, config, and gallery. Read-only — no key, no signer, no payment.",
+	"type": "module",
+	"author": "nirholas <support@three.ws>",
+	"license": "Apache-2.0",
+	"homepage": "https://nirholas.github.io/solana-vanity-mcp/",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nirholas/solana-vanity-mcp.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nirholas/solana-vanity-mcp/issues"
+	},
+	"keywords": [
+		"mcp",
+		"three.ws",
+		"solana",
+		"vanity-address",
+		"bounty",
+		"x402",
+		"model-context-protocol",
+		"mcp-server",
+		"ai-agents"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"src",
+		"server.json",
+		"README.md",
+		"LICENSE"
+	],
+	"bin": {
+		"vanity-mcp": "src/index.js"
+	},
+	"main": "./src/index.js",
+	"exports": {
+		".": "./src/index.js"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "node --test \"test/**/*.test.mjs\"",
+		"inspect": "npx -y @modelcontextprotocol/inspector node src/index.js"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.29.0",
+		"zod": "^3.23.8"
+	}
+}

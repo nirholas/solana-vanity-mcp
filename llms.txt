@@ -1,0 +1,20 @@
+# @three-ws/vanity-mcp
+
+> Read the three.ws vanity-address grind-bounty market and proof-of-grind rarity gallery from any AI agent. Quote a pattern's difficulty + USDC price, appraise any address's rarity, and browse the bounty board, claimable queue, stats, leaderboard, config, and gallery. Read-only — no key, no signer, no payment.
+
+@three-ws/vanity-mcp is a Model Context Protocol server from three.ws. Install: `npx -y @three-ws/vanity-mcp`.
+
+## Docs
+
+- [README](https://github.com/nirholas/solana-vanity-mcp/blob/main/README.md): install, configuration, full reference
+- [Documentation site](https://nirholas.github.io/solana-vanity-mcp/): the README as a web page
+- [Full text for LLMs](https://nirholas.github.io/solana-vanity-mcp/llms-full.txt): README inlined
+- [AGENTS.md](https://github.com/nirholas/solana-vanity-mcp/blob/main/AGENTS.md): guidance for coding agents
+
+## Project
+
+- [Source](https://github.com/nirholas/solana-vanity-mcp)
+- [npm](https://www.npmjs.com/package/@three-ws/vanity-mcp)
+- [three.ws](https://three.ws): the platform this is part of
+- [Issues](https://github.com/nirholas/solana-vanity-mcp/issues)
+- [MCP Registry](https://registry.modelcontextprotocol.io/?q=io.github.nirholas%2Fvanity-mcp)
