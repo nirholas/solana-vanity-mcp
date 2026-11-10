@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "vanity": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@three-ws/vanity-mcp"
+      ]
+    }
+  }
+}

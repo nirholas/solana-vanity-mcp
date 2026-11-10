@@ -1,0 +1,21 @@
+{
+  "name": "solana-vanity-mcp",
+  "owner": {
+    "name": "nirholas"
+  },
+  "description": "Read the three.ws vanity-address grind-bounty market and rarity gallery: quote patterns, appraise addresses, browse bounties.",
+  "plugins": [
+    {
+      "name": "vanity-grind-market",
+      "source": "./plugins/vanity-grind-market",
+      "description": "Read the three.ws vanity-address grind-bounty market and rarity gallery: quote patterns, appraise addresses, browse bounties.",
+      "category": "data",
+      "tags": [
+        "mcp",
+        "solana",
+        "vanity-address",
+        "bounty"
+      ]
+    }
+  ]
+}
